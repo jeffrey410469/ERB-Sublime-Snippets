@@ -1,26 +1,23 @@
 ERB-Sublime-Snippets
 ====================
 
-A collection of [Sublime Text](http://www.sublimetext.com/) snippets useful for writing [ERB](http://ruby-doc.org/stdlib-1.9.3/libdoc/erb/rdoc/ERB.html)
+This repo is fork from git://github.com/matthewrobertson/ERB-Sublime-Snippets.git for personal erb syntax, like <%= link_to(, )%> instead of <%= link_to , >, which is the convension from master XDite master Yung.
 
-##Installation
-
-These snippets can now be installed via [Sublime Package Control](http://wbond.net/sublime_packages/package_control). If you do not use package control, simply checkout the source code into Sublime Text's packages directory. The location is system specific:
 
 ### For OSX
 
     $ cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
-    $ git clone git://github.com/matthewrobertson/ERB-Sublime-Snippets.git ERB_Snippets
+    $ git clone git://github.com/jeffrey410469/ERB-Sublime-Snippets.git ERB_Snippets
 
 ### For Windows
 
     $ cd %APPDATA%/Sublime Text 2/Packages/
-    $ git clone git://github.com/matthewrobertson/ERB-Sublime-Snippets.git ERB_Snippets
+    $ git clone git://github.com/jeffrey410469/ERB-Sublime-Snippets.git ERB_Snippets
 
 ### For Linux
 
     $ cd ~/.Sublime Text 2/Packages/
-    $ git clone git://github.com/matthewrobertson/ERB-Sublime-Snippets.git ERB_Snippets
+    $ git clone git://github.com/jeffrey410469/ERB-Sublime-Snippets.git ERB_Snippets
 
 ##Snippets and Bindings
 
@@ -98,7 +95,7 @@ These snippets can now be installed via [Sublime Package Control](http://wbond.n
   <tr>
     <td>`link_to` helper</td>
     <td>__lt__</td>
-    <td>`<%= link_to ..., ... %>`</td>
+    <td>`<%= link_to (, ) %>`</td>
   </tr>
   <tr>
     <td>`form_for` helper</td>
