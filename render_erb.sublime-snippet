@@ -1,6 +1,5 @@
 <snippet>
-  <content><![CDATA[<%= render ${1:} %>
-  ]]></content>
+  <content><![CDATA[<%= render ${1:} %>]]></content>
   <tabTrigger>rd</tabTrigger>
   <scope>text.html.ruby</scope>
   <description>output form_for ERB</description>
