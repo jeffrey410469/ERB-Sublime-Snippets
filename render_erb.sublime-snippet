@@ -1,9 +1,7 @@
 <snippet>
-  <content><![CDATA[<%= simple_form_for(${1:@things}) do |${2:f}| %>
-	$3
-<% end %>
+  <content><![CDATA[<%= render ${1:} %>
   ]]></content>
-  <tabTrigger>sf</tabTrigger>
+  <tabTrigger>rd</tabTrigger>
   <scope>text.html.ruby</scope>
   <description>output form_for ERB</description>
 </snippet>
